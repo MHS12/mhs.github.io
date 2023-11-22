@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            display:flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            background-color: aqua;
+            padding: 20px;
+            background-image: url(https://th.bing.com/th/id/R.d6fd4bc8e2fb8f380d9dda7255f0e518?rik=4uKhAUEyGbjurA&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f4%2f49%2fMale_Lion_on_Rock.jpg&ehk=Mnpu9wosd1yWR9S2H119PyXHzmkniivw2k9SilhB1rM%3d&risl=1&pid=ImgRaw&r=0);
+        background-position: center;
+        background-size:cover;
+        }
+        .cotainer{
+            background-color:rgba(255, 255, 255, 0.2);
+            max-width: 700px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        form .input-box{
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+        .input-box input{
+            margin: 5px;
+            height: 20px;
+            background-color:rgba(255, 255, 255, 0.3);
+            border-style:none ;
+        }
+        .subbutton{
+            display: flex;
+            margin-left: 30px;
+            margin: 0px 100px 0px 100px;           
+            
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+        }
+        button{
+            background-color:rgba(207, 81, 22, 0.4);
+            border-style: none;
+            font-size: 15px;
+            padding: 5px;
+            font-weight: bold;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cotainer">
+        <form action="post" class="form">
+        <div class="input-box">
+            <label >Full Name</label>
+            <input type="text" placeholder="Enter Full name">
+        </div>
+        <div class="input-box">
+            <label >Email</label>
+            <input type="text" placeholder="Enter Email">
+        </div>
+        <div class="subbutton">
+            <button>Submit</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
