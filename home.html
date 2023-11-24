@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="headbar.css" />
+    <link rel="stylesheet" href="loginpage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="headbar">
+      <header>
+        <div class="mainnavbar">
+          <div class="logoclass">
+            <p>Trip</p>
+          </div>
+          <div class="icons" name="icbar">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-x" name="Xbar"></i>
+          </div>
+        </div>
+        <nav class="navclass">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Photos</a></li>
+            <li><a href="index.html">Details</a></li>
+            <li><a href="index.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="mainbody">
+        <div class="logincard">
+          <h1 class="regclass">Login</h1>
+          <div class="loginform">
+            <form
+              action="connect.php"
+              method="post"
+              class="form"
+              enctype="multipart/form-data"
+            >
+              <div class="input-box">
+                <label for="username"><b>User Name</b></label>
+                <input
+                  type="text"
+                  placeholder=" Enter User Name"
+                  id="username"
+                  name="username"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <label for="passoward"><b>Passoward</b></label>
+                <input
+                  type="text"
+                  id="passoward"
+                  placeholder=" Enter Passoward"
+                  name="passoward"
+                  required
+                />
+              </div>
+              <div class="input-submit">
+                <input type="submit" value="Login" />
+                <a href="index.php"> <input type="button" value="Back" /></a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="headbar.js"></script>
+</html>

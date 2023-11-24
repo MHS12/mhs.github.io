@@ -1,0 +1,39 @@
+.mainbody {
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.logincard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+}
+.input-box {
+  padding: 10px;
+}
+.input-submit {
+  display: flex;
+  justify-content: center;
+}
+.input-box input {
+  border-color: rgba(225, 225, 225, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 95%;
+  margin: 3px;
+  padding: 5px;
+}
+.input-submit input {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 70px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 7px;
+  border-style: inset;
+  border-color: rgba(225, 225, 225, 0.6);
+}
